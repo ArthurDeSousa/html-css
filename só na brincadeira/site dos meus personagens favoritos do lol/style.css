@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{background-color: rgb(14, 13, 13);}
+h1{color: azure;
+background-color: darkblue;}
+h2{color: blue;
+background-color: rgb(65, 209, 219);}
+h3{color: cornflowerblue;}
+p{color: beige;
+font-size: 0.5cm;}
+img{width: 7cm;}

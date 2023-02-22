@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(128, 204, 200);
+            font: bold, 16px, Arial, sans-serif;
+        }
+        header{
+            color: darkblue;
+            border: 5px solid crimson;
+            background-color: crimson;
+            box-shadow: 4px 15px 3px rgb(0, 0, 0);
+            border-radius: 20px 20px 6px 6px;
+        }
+        nav > a{
+            color: darkblue;
+            border: 1px solid rgb(0, 0, 117);
+            outline: 1px dashed blue;
+            text-decoration: none;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            color: rgb(0, 80, 82);
+            border: 5px solid rgb(0, 0, 155);
+            margin: auto;
+            border-radius: 10px;
+            background-color: blue;
+            box-shadow: 10px 9px 4px;
+
+        }
+        footer{
+        color: rgb(0, 80, 82);
+        border: 10px rgb(0, 0, 255);
+        padding: 3px;
+        height: 15px;
+        width: auto;
+        margin: 30px
+        ;
+        
+        }
+        footer > p {
+            background-color: black;
+            margin: 1px;
+        }
+        #assuntos{
+            background-color: blue;
+            color: black;
+            margin: 20px;
+            border: 40px solid rgb(0, 0, 116);
+            outline: 5px dashed blue;
+            
+        }
+        #noticias{
+            background-color: rgb(0, 0, 255);
+            color: black;
+            margin: 20px 20px 15px 20px;
+            border: 15px solid rgb(0, 0, 107);
+            outline: 5px dashed blue;
+        }
+        #bola{
+            margin: 20px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: white;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+     <h1>MEU SITE</h1>
+     <nav>
+        <a href="https://www.youtube.com/" target="_blank">youtube</a> <br>
+        <a href="https://www.facebook.com/" target="_blank">facebook</a> <br>
+        <a href="https://www.instagram.com/" target="_blank">instagram</a> <br>
+        <a href="https://www.twitter.com/" target="_blank">twitter</a> <br>
+        <a href="https://www.twitch.com/"target="_blank">twitch</a> <br>
+     </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>bolo é muito bom</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem possimus, labore repudiandae obcaecati blanditiis earum fugit magnam cupiditate non quidem libero tenetur molestiae! Enim eos sint iure. Ut, reprehenderit!</p>
+        </section>
+     <section id="noticias">
+    <article>
+        <h2>noticias sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iusto perspiciatis, quasi quos est ut quibusdam, omnis fugit consequuntur quisquam qui commodi eaque unde ex repellat explicabo necessitatibus. Dolorum, aliquam.</p>
+    <aside>
+        <p>Artigo escrito por pedro alvarez cabrel</p>
+    </aside>
+    </article>
+    <article>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, iure perferendis a fugiat sed dolores explicabo delectus, doloribus, aperiam quasi adipisci ex excepturi totam quis deleniti voluptatem tempore incidunt architecto?</p>
+    </article>
+     </section>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aliquid similique dolorum eligendi qui, explicabo perspiciatis nemo quia sequi id vel illo voluptatem tempore aperiam, quisquam, ad quaerat veniam esse!</p>
+     <a href=""></a>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
