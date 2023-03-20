@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -28,6 +29,12 @@
         thead{
             background-color: gray;
             color: white;
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         .num{
             text-align: right;
@@ -164,6 +171,7 @@ TR,TD,TH
             </td>
             <td class="num">634 805	</td>
         </tr>
+       
 
        
 
@@ -174,6 +182,7 @@ TR,TD,TH
             <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>219 076 961</strong></td>
         </tr>
+       
 
     </tfoot>
  </table>
